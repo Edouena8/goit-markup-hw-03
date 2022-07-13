@@ -261,6 +261,10 @@ margin: 0 auto;
    gap: var(--indent);
 }
 
+.team-item {
+   background-color: #FFFFFF;
+}
+
 .team-wrapper {
    padding: 30px 5px;
    border-top: none;
@@ -290,12 +294,12 @@ margin: 0 auto;
  /* Footer */
 
 .footer {
+    padding: 60px 0;
     background-color: var(--dark-bg-cl);
 }
 
 .footer-logo {
    display: block;
-   padding-top: 60px;
    margin-bottom: 20px;
 }
 
@@ -305,8 +309,6 @@ margin: 0 auto;
 
  .address {
    font-style: normal;
-   width: 231px;
-   padding-bottom: 60px;
  }
 
  .address-text {
@@ -333,10 +335,7 @@ margin: 0 auto;
    display: flex;
    justify-content: center;
    margin-bottom: 50px;
-   gap: 8px;
-   min-width: 611px;
-   min-height: 54px;
-   
+   gap: 8px; 
  }
 
 
